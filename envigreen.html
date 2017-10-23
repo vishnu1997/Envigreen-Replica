@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<script src="https://use.fontawesome.com/ba8bfb4170.js"></script>    
+<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+<script src="jquery-3.1.1.min.js"> </script>    
+<style>
+* {box-sizing:border-box}
+body {font-family: Verdana,sans-serif;background-image: url(slider-2.jpg);
+     background-repeat: no-repeat;
+    background-attachment: fixed;}
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {
+
+  position: relative;
+  margin: auto;
+}
+
+    /*---------------*/
+    
+    
+    div.scrollmenu {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+    background-color: #777;
+}
+    
+    /*----------------*/
+.er{ 
+ list-style-type: none;
+     overflow: hidden;
+    margin: 0;
+    padding: 0;
+   
+    background-color:beige;
+   
+    top: 0;
+    width: 100%;
+    }
+    .et {
+        float: left;
+}
+    .aer{
+        display: block;
+        color: ;
+        padding: 16px;
+        text-decoration: none;
+    }
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+</style>
+<body>
+<ul class="er">
+    <li class="et"><img src="Logo.png" style="padding-right:3px;padding-left:3px;"></li>
+    <li class="et" ><a href="#" class="aer" style="padding-top:19px;">HOME</a></li>
+    <li class="et" ><a href="#" class="aer" style="padding-top:19px;">CONTACT</a></li>
+    <li class="et" ><a href="#" class="aer" style="padding-top:19px;">MAGGI</a></li>
+    
+   <li class="right" style="padding:16px;padding-top:19px;"><i class="fa fa-facebook fa-2x"></i></li>
+    <li class="right" style="padding:8px;padding-top:12px;"><a class="waves-effect waves-light btn">button</a>
+</li>
+    </ul>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+ 
+  <img src="slider-1.jpg" style="width:100%">
+ 
+</div>
+
+<div class="mySlides fade">
+  
+  <img src="slider-2.jpg" style="width:100%">
+ 
+</div>
+
+<div class="mySlides fade">
+
+  <img src="slider-3.jpg" style="width:100%">
+  
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+    
+
+<div  style="margin-left:10px;display:inline-block;height:200px;background-color:darkseagreen;position:relative;width:24%;">
+       
+        <img src="slider-1.jpg"style="height:200px;width:100%;">
+         <p style="position:absolute;width:100%;top:10px;color:white;text-align:center;font-family:fantasy;text-transform:uppercase;font-size:20px;">
+        hiiiii look above n below and walk
+        </p>
+      
+    </div>
+    
+    <div  style="display:inline-block;height:200px;background-color:darkseagreen;position:relative;width:24%;">
+       
+        <img src="slider-1.jpg"style="height:200px;width:100%;">
+         <p style="position:absolute;width:100%;top:10px;color:white;text-align:center;font-family:fantasy;text-transform:uppercase;font-size:20px;">
+        next time dont try to 
+        </p>
+        <a class="waves-effect waves-light btn" style="position:absolute;top:125px;vertical-align:middle;margin-left:20%;">button</a>
+    </div>
+      <div  style="display:inline-block;height:200px;background-color:darkseagreen;position:relative;width:24%;">
+       
+        <img src="slider-1.jpg"style="height:200px;width:100%;">
+    
+    </div>
+   <div  style="display:inline-block;height:200px;background-color:darkseagreen;position:relative;width:24%;">
+       
+        <img src="slider-1.jpg"style="height:200px;width:100%;">
+         <p style="position:absolute;width:100%;top:40px;color:white;text-align:center;font-family:fantasy;text-transform:uppercase;font-size:20px;">
+        Come and get it nope;
+        </p>
+        <a class="waves-effect waves-light btn" style="position:absolute;top:125px;margin-left:20%;">button</a>
+    </div>
+
+ <div style="margin:40px;text-align: center;font-size:15px;color:white;font-family:arial;text-transform:uppercase;" >   
+    <p>The world's annual consumption of plastic materials has increased from around 5 million tons in the 1950s to nearly 100 million tones today.</p>
+    
+<p>EnviGreen's mission is to replace plastic used in day to day use with a sustainable eco-friendly alternative.
+</p>
+    </div>
+    
+    
+ <!--<ul>
+    <li style="float: left;margin:10px;"><img src="Logo.png"></li>
+     <li style="float: left;margin:10px;"><img src="Logo.png"></li>
+      <li style="float: left;margin:10px;"><img src="Logo.png"></li>
+      <li style="margin:10px;padding10px;"><img src="Logo.png"></li>
+    </ul>-->   
+    
+<div class="scrollmenu">
+ <img style="margin:10px;" src="Logo.png">
+  <img style="margin:10px;" src="Logo.png">
+    <img style="margin:10px;"  src="Logo.png">
+    <img style="margin:10px;" src="Logo.png">
+    
+</div>
+    
+ <footer  style="position:absolute;color:white;margin:0;padding:0;background-color:black;width:100%;">
+         
+          <div class="footer-copyright">
+            <div class="container">
+            © 2014 Copyright Text
+            <a class=" right" style="padding-right:2px;" href="#!"><i class="fa fa-facebook fa-2x" ></i></a>
+            <a class=" right" style="padding-right:10px;" href="#!"><i class="fa fa-youtube-play fa-2x" ></i></a>
+            </div>
+          </div>
+        </footer>
+    
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+   for (i = 0; i < dots.length; i++) {
+       dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    //dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 5000); // Change image every 2 seconds
+}
+</script>
+
+<script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+</html> 
